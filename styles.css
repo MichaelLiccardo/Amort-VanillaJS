@@ -1,0 +1,112 @@
+.body {
+    
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+}
+.footer {
+    
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar {
+    height: 150px;
+    /*background: rgb(172, 78, 78);*/
+    background-image: linear-gradient(0deg, rgb(255, 255, 255), rgb(172, 78, 78));
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    color: white;
+    padding-bottom: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    table-layout: fixed;
+    width: 200px;
+}
+
+th, td {
+    padding: 12px 15px;
+    width: 150px;
+    overflow: hidden;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgba(255, 190, 190, 0.979); 
+    border-color: rgba(255, 190, 190, 0.979); 
+}
+tbody tr:nth-child(even) {
+    background: white; 
+    border-color: white
+}
+
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(172, 78, 78);
+    border-top: 2px solid rgb(172, 78, 78);
+}
+thead th {
+    background-color: rgb(172, 78, 78);
+    color: white;
+    border-color: rgb(172, 78, 78);
+}
+.label {
+    font-size: 1rem;
+    background-color: #cccccc;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px 10px 10px 10px;
+    height: 100px;
+}
+input {
+    height: 30px;
+    width: 200px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #595959;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.submit-btn {
+    background-color: #555555;
+    font-size: 20px;
+    border: 2px solid #555555;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }

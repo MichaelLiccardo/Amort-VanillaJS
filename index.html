@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Amortization Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+    </style>
+</head>
+
+<body class="body">
+  <script type="text/javascript" src="app.js" async></script>
+  <header>
+      <nav class="nav-bar">
+        <div class="nav-bar-div">
+          <br>
+
+          <input type="currency" class="dollar-amount-input" placeholder="Loan Amt ($)"> 
+
+          <input type="number" class="years-input" max = "100" placeholder="Term Length">
+
+          <input type="number" class="rate-input" placeholder="Rate">
+          <br><br>
+          <button type="button" class="submit-btn">Calculate</button>
+        </div>
+        
+      </nav>
+  </header>
+  <br><br><br><br><br><br><br>
+  <div id='amort-table-div'>
+    <table id='table'>
+    </table>
+  </div>
+  <footer class="footer">
+    <br><br><br>
+  </footer>
+</body>
+</html>
